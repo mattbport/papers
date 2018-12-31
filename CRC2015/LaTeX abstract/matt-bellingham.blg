@@ -1,0 +1,24 @@
+[0] Config.pm:318> INFO - This is Biber 1.8
+[1] Config.pm:321> INFO - Logfile is 'matt-bellingham.blg'
+[81] biber-darwin:275> INFO - === Fri Jun 26, 2015, 12:03:15
+[81] Biber.pm:333> INFO - Reading 'matt-bellingham.bcf'
+[152] Biber.pm:630> INFO - Found 6 citekeys in bib section 0
+[175] Biber.pm:3053> INFO - Processing section 0
+[195] Biber.pm:3190> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[228] bibtex.pm:812> INFO - Found BibTeX data source 'bib.bib'
+[281] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/vv/r8bn8pm52l56990c19klxfb80000gp/T/PTUsr24qt0/bib.bib_6917.utf8, line 2990, warning: possible runaway string started at line 2989
+[281] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/vv/r8bn8pm52l56990c19klxfb80000gp/T/PTUsr24qt0/bib.bib_6917.utf8, line 3239, warning: possible runaway string started at line 3237
+[281] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/vv/r8bn8pm52l56990c19klxfb80000gp/T/PTUsr24qt0/bib.bib_6917.utf8, line 3635, warning: possible runaway string started at line 3634
+[281] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/vv/r8bn8pm52l56990c19klxfb80000gp/T/PTUsr24qt0/bib.bib_6917.utf8, line 3763, warning: possible runaway string started at line 3758
+[282] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/vv/r8bn8pm52l56990c19klxfb80000gp/T/PTUsr24qt0/bib.bib_6917.utf8, line 5037, warning: possible runaway string started at line 5028
+[282] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/vv/r8bn8pm52l56990c19klxfb80000gp/T/PTUsr24qt0/bib.bib_6917.utf8, line 5366, warning: possible runaway string started at line 5364
+[282] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/vv/r8bn8pm52l56990c19klxfb80000gp/T/PTUsr24qt0/bib.bib_6917.utf8, line 5383, warning: possible runaway string started at line 5381
+[282] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/vv/r8bn8pm52l56990c19klxfb80000gp/T/PTUsr24qt0/bib.bib_6917.utf8, line 5400, warning: possible runaway string started at line 5398
+[282] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/vv/r8bn8pm52l56990c19klxfb80000gp/T/PTUsr24qt0/bib.bib_6917.utf8, line 5429, warning: possible runaway string started at line 5425
+[282] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/vv/r8bn8pm52l56990c19klxfb80000gp/T/PTUsr24qt0/bib.bib_6917.utf8, line 5446, warning: possible runaway string started at line 5443
+[327] Biber.pm:2939> INFO - Overriding locale 'en_GB.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[327] Biber.pm:2945> INFO - Sorting 'entry' list 'nyt' keys
+[327] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_GB.UTF-8'
+[344] bbl.pm:482> INFO - Writing 'matt-bellingham.bbl' with encoding 'ascii'
+[345] bbl.pm:555> INFO - Output to matt-bellingham.bbl
+[346] Biber.pm:105> INFO - WARNINGS: 10

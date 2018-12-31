@@ -1,0 +1,53 @@
+\documentclass{ppig}
+\usepackage{epsfig}
+\usepackage{booktabs}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+
+% The titlebox defines how much vertical space is given for
+% the authors' list. If you need extra space to show all the
+% authors, uncomment the line below and increase the value. Please
+% do not make the titlebox smaller than the original size of 5cm.
+%\setlength\titlebox{5cm}
+
+\title{Choosers: The design and evaluation of a visual algorithmic music
+composition language for non-programmers}
+
+% List the authors like you would in a table.
+% The \And command creates another author's column. Use it after the
+% details of one author to separate them from the following author horizontally.
+% The \AND command creates a new "row" of authors and it should be used
+% when the authors don't fit on the same line. You may have to increase
+% the titlebox so that the author's don't overlap with the abstract.
+\author{Matt Bellingham \\
+  Department of Music \\
+  University of Wolverhampton \\
+%  Faculty of Arts \\
+  matt.bellingham@wlv.ac.uk \\
+  \And
+  Simon Holland \\
+  Music Computing Lab \\
+%  Centre for Research In Computing \\
+  The Open University \\
+  s.holland@open.ac.uk \\
+  \And
+  Paul Mulholland\\
+  Knowledge Media Institute \\
+%  Centre for Research In Computing \\
+  The Open University \\
+  p.mulholland@open.ac.uk}
+
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+Algorithmic music composition involves specifying music in such a way that it is non-deterministic on playback, leading to music which has the potential to be different each time it is played. Current systems for algorithmic music composition require the user to have considerable background knowledge of programming and/or music theory. However, much of the potential user population are self-taught music producers without the required background in either programming or music. To investigate how this gap between tools and potential users might be better bridged we designed Choosers, a prototype algorithmic programming system centred around a new abstraction (of the same name) designed to allow non-programmers access to algorithmic music composition methods. Choosers provides a graphical notation that allows structural elements of key importance in algorithmic composition (such as sequencing, choice, multi-choice, weighting, looping and nesting) to be foregrounded in the notation in a way that is accessible to non-programmers. In order to test design assumptions a Wizard of Oz study was conducted in which seven pairs of undergraduate music technology students used Choosers to carry out a range of rudimentary algorithmic composition tasks. Feedback was gathered using the Programming Walkthrough method. All users were familiar with Digital Audio Workstations, and as a result they came with some relevant understanding, but also with some expectations that were not appropriate for algorithmic music work. Users were able to successfully make use of the mechanisms for choice, multi-choice, looping, and weighting after a brief training period. The `stop' behaviour was not as easily understood and required additional input before users fully grasped it. Some users wanted an easier way to override algorithmic choices. These findings have been used to further refine the design of Choosers.
+\end{abstract}
+
+
+\bibliography{ppig-sample-bibliography}
+\bibliographystyle{apacite} 
+\end{document}

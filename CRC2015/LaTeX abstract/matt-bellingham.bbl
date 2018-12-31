@@ -1,0 +1,177 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nyt}
+    \entry{Collins2005-zk}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=ffe56adf4a555ff961781e23fd9a98d3}{Collins}{C\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ffe56adf4a555ff961781e23fd9a98d3}{Collins}{C\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ffe56adf4a555ff961781e23fd9a98d3}
+      \strng{fullhash}{ffe56adf4a555ff961781e23fd9a98d3}
+      \field{sortinit}{C}
+      \field{labelyear}{2005}
+      \field{labelmonth}{04}
+      \field{datelabelsource}{}
+      \field{labeltitle}{A synthesis process model of creative thinking in music composition}
+      \field{abstract}{A three-year single case study of a composer was undertaken in order to track the compositional process in real time. A combination of data collection techniques was used to attempt to map cognitive processes: digital MIDI save-as files, analogue audio files, semi-structured interviews, immediately retrospective verbal accounts and verification sessions between composer and researcher. Findings indicated a chunking of processes and strategies at micro and macro levels. A hypothetical model is presented which points to a generative process of problem proliferation and successive solution implementation, occurring not only in a linear manner but also recursively. Moments of creative insight were observed which related to Gestalt theory problem restructuring; some were seen to overlap in real time with others, indicating an element of parallelism in creative thinking. A synthesis of differing creative process theories is suggested to explain the compositional process observed in the study.}
+      \field{journaltitle}{Psychology of Music}
+      \field{month}{04}
+      \field{number}{2}
+      \field{title}{A synthesis process model of creative thinking in music composition}
+      \field{volume}{33}
+      \field{year}{2005}
+      \field{pages}{193\bibrangedash 216}
+      \keyw{Composition}
+    \endentry
+    \entry{Csikszentmihalyi2014-mh}{incollection}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=4102f9749c0a86a4a970e9b54bfb1b29}{Csikszentmihalyi}{C\bibinitperiod}{Mihaly}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=4102f9749c0a86a4a970e9b54bfb1b29}{Csikszentmihalyi}{C\bibinitperiod}{Mihaly}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Netherlands}%
+      }
+      \strng{namehash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{fullhash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \field{sortinit}{C}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Flow}
+      \field{abstract}{What makes people want to go on with the effort required from life? Every epistemology of behavior must sooner or later cope with this basic question. The question is not so mysterious for nonhuman organisms, which presumably have built-in genetic programs instructing them to live as long as their physical machinery is able to function. But our species has a choice: With the development of consciousness, we have the ability to second-guess and occasionally override the instructions coded in our chromosomes. This evolutionary development has added a great deal of flexibility to the human repertoire of behaviors. But the freedom gained has its downside---too many possibilities can have a paralyzing effect on action (Schwartz 2000). Among the options we are able to entertain is that of ending our lives; thus, as the existential philosophers remarked, the question of why one should not commit suicide is fundamental to the understanding of human life.}
+      \field{booktitle}{Flow and the Foundations of Positive Psychology}
+      \field{title}{Flow}
+      \field{year}{2014}
+      \field{pages}{227\bibrangedash 238}
+    \endentry
+    \entry{Holland2002-vc}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=2,hash=69c0378dcc3633f344fd5d93873e98f4}{Holland}{H\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a98443e31c73ef985b3d9a2ffdc11d00}{Gedenryd}{G\bibinitperiod}{H}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=da403d4c23d08925df692282d7b44ee4}{Morse}{M\bibinitperiod}{D}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=2,hash=69c0378dcc3633f344fd5d93873e98f4}{Holland}{H\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a98443e31c73ef985b3d9a2ffdc11d00}{Gedenryd}{G\bibinitperiod}{H}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=da403d4c23d08925df692282d7b44ee4}{Morse}{M\bibinitperiod}{D}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {mcl.open.ac.uk}%
+      }
+      \strng{namehash}{efe6bf48a43ef4ed37a86af04b613739}
+      \strng{fullhash}{efe6bf48a43ef4ed37a86af04b613739}
+      \field{sortinit}{H}
+      \field{labelyear}{2002}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Applying Direct Combination to afford spontaneity in pervasive computing}
+      \field{abstract}{In rich pervasive environments, there will be numerous opportunities for end users to dynamically create services of interest by causing two or more devices or resources to interoperate together, often under changing circumstances. In general, users find this kind of process hard to manage. Existing programming architectures make the situation difficult to address in a principled, scaleable way. Users find it hard to tackle such problems via devices with small, resource-poor user interfaces. It is proposed that a good theoretical basis for addressing an essential aspect of all of these problems is the theory of Direct Combination. When the Direct Combination framework, based on the theory, is applied to spontaneous interactions, the user interface can be made relatively simple, and the amount of search required by the user to specify desired actions can be greatly reduced. We present Direct Combination (DC) and the new interaction techniques it gives rise to for pervasive environments. We consider two different support architectures. We argue that one of these, the role-based architecture, has particularly good properties for modelling rapidly changing pervasive environments, and for highly distributed implementations. We demonstrate how the concept of viewpoints can be used to focus, filter and afford operations, and how this can be well supported by the role-based architecture.}
+      \field{journaltitle}{International Journal of Ad Hoc and Ubiquitous Computing}
+      \field{title}{Applying Direct Combination to afford spontaneity in pervasive computing}
+      \field{year}{2002}
+      \keyw{Direct Combination}
+    \endentry
+    \entry{Holland1999-zc}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=2,hash=e4d495e02d7eb54663f8f22ac8c28165}{Holland}{H\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=1,hash=209550a204042cd5af8f1580e3408770}{Oppenheim}{O\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=2,hash=e4d495e02d7eb54663f8f22ac8c28165}{Holland}{H\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=1,hash=209550a204042cd5af8f1580e3408770}{Oppenheim}{O\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {ACM}%
+      }
+      \list{location}{1}{%
+        {Pittsburgh}%
+      }
+      \strng{namehash}{e62b2023f85719229ce902444939859b}
+      \strng{fullhash}{e62b2023f85719229ce902444939859b}
+      \field{sortinit}{H}
+      \field{labelyear}{1999}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Direct Combination}
+      \field{annotation}{Every pair of objects of interest must have its own set of useful operations defined, well-suited to that particular pair.}
+      \field{booktitle}{{CHI} '99}
+      \field{title}{Direct Combination}
+      \field{year}{1999}
+      \field{pages}{262\bibrangedash 269}
+      \keyw{Direct Combination}
+    \endentry
+    \entry{Oppenheim1994-zn}{incollection}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=1,hash=a0e523f08a50bc7e43bb33c863713abd}{Oppenheim}{O\bibinitperiod}{Daniel\bibnamedelima V}{D\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=1,hash=a0e523f08a50bc7e43bb33c863713abd}{Oppenheim}{O\bibinitperiod}{Daniel\bibnamedelima V}{D\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=ff2f04d188db035847824c366588df03}{Smith}{S\bibinitperiod}{Matt}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=ffd9c8543213f28c0313c231ca735e64}{Smaill}{S\bibinitperiod}{Alan}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=d565adbbd0075d5589e9afa4bbbf18b5}{Wiggins}{W\bibinitperiod}{Geraint\bibnamedelima A}{G\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer London}%
+      }
+      \strng{namehash}{a0e523f08a50bc7e43bb33c863713abd}
+      \strng{fullhash}{a0e523f08a50bc7e43bb33c863713abd}
+      \field{sortinit}{O}
+      \field{labelyear}{1994}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Slappability: A New Metaphor for Human Computer Interaction}
+      \field{annotation}{Ease of use<div>Transmogrification</div><div>Creative - allows new interactions without increased complexity</div><div>Avoiding formalism</div><div>Expressive</div><div>Taming complexity (my phrase)</div>}
+      \field{booktitle}{Music Education: An Artificial Intelligence Approach}
+      \field{series}{Workshops in Computing}
+      \field{title}{Slappability: A New Metaphor for Human Computer Interaction}
+      \field{year}{1994}
+      \keyw{IxD;Direct Combination}
+    \endentry
+    \entry{Repenning1997-yv}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=bde57bff8295b0b817081ddb3781e95c}{Repenning}{R\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=47192f4f45914df15a8cd565fe514fe8}{Ioannidou}{I\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=bde57bff8295b0b817081ddb3781e95c}{Repenning}{R\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=47192f4f45914df15a8cd565fe514fe8}{Ioannidou}{I\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f768cdcfe0b9adfe2ecd95223f173ab1}
+      \strng{fullhash}{f768cdcfe0b9adfe2ecd95223f173ab1}
+      \field{sortinit}{R}
+      \field{labelyear}{1997}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Behaviour processors: layers between end-users and Java virtual machines}
+      \field{abstract}{Visual programming approaches are limited in their usefulness if they do not include a profile of their users that defines exactly who is attempting to solve what kind of problems using which tools and why. Without such a definition, visual programming approaches can end up as solutions in search of problems. Reconceptualizing-programming environments as layered behaviour processors in the context of creating SimCityTM like interactive simulations-makes end user programming more feasible. The layered approach serves the programming needs for a range of users, including casual computer end users and professional programmers. The extension of the Agentsheets system with the RistrettoTM agent to Java bytecode compiler is used to illustrate how a behaviour processor enables end users to create their own Java applets that can be embedded into Web pages}
+      \field{booktitle}{Proceedings of the 1997 IEEE Symposium on Visual Languages}
+      \field{month}{09}
+      \field{title}{Behaviour processors: layers between end-users and Java virtual machines}
+      \field{year}{1997}
+      \field{pages}{402\bibrangedash 409}
+      \keyw{Internet;human factors;object-oriented languages;user interfaces;virtual machines;visual programming;Agentsheets system;Internet;Java applets;Java bytecode compiler;Java virtual machines;Ristretto agent;SimCity;Web pages;behaviour processors;casual computer end users;end user programming;interactive simulations;layered behaviour processors;professional programmers;programming environments;visual programming approaches;Computational modeling;Computer science;Context modeling;Java;Programming environments;Programming profession;Taxonomy;Video recording;Virtual machining;Web pages}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

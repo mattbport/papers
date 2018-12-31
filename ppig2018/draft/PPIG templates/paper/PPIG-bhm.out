@@ -1,0 +1,32 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Related work/problem setting}{}% 2
+\BOOKMARK [1][-]{section.3}{Introduction to the system: Choosers}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Samples and sequences}{section.3}% 4
+\BOOKMARK [1][-]{section.4}{Choosers: indeterminism, choice, parallelism and multi-select}{}% 5
+\BOOKMARK [2][-]{subsection.4.1}{Looping}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.2}{Time Choosers and Full Choosers}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.3}{Hard vs. soft stop of loops}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.4}{Terminology: Soundable Choosers, Time Choosers and Full Choosers}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.5}{Time Choosers on their own}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.6}{Time Choosers with multiple lanes}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Method}{}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Participants}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.2}{Walkthrough protocol}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.3}{Walkthrough scenarios}{section.5}% 15
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Scenario 1 - understanding the Soundable Chooser}{subsection.5.3}% 16
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Scenario 2 - creating a Soundable Chooser}{subsection.5.3}% 17
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Scenario 3 - understanding the Time Chooser}{subsection.5.3}% 18
+\BOOKMARK [3][-]{subsubsection.5.3.4}{Scenario 4 - creating a single-lane Time Chooser}{subsection.5.3}% 19
+\BOOKMARK [3][-]{subsubsection.5.3.5}{Scenario 5 - understanding a Full Chooser}{subsection.5.3}% 20
+\BOOKMARK [3][-]{subsubsection.5.3.6}{Scenario 6 - understanding a Full Chooser with multiple lane times}{subsection.5.3}% 21
+\BOOKMARK [3][-]{subsubsection.5.3.7}{Scenario 7 - creating a Full Chooser}{subsection.5.3}% 22
+\BOOKMARK [3][-]{subsubsection.5.3.8}{Scenario 8 \205 playground}{subsection.5.3}% 23
+\BOOKMARK [3][-]{subsubsection.5.3.9}{Final questions}{subsection.5.3}% 24
+\BOOKMARK [1][-]{section.6}{Reflection on design issues}{}% 25
+\BOOKMARK [2][-]{subsection.6.1}{Musical issues}{section.6}% 26
+\BOOKMARK [2][-]{subsection.6.2}{Programming-related issues}{section.6}% 27
+\BOOKMARK [2][-]{subsection.6.3}{Shared and existing knowledge}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.4}{Metaphor}{section.6}% 29
+\BOOKMARK [2][-]{subsection.6.5}{Arithmetic}{section.6}% 30
+\BOOKMARK [1][-]{section.7}{Design problems and candidate solutions in Choosers}{}% 31
+\BOOKMARK [1][-]{section.8}{Conclusions}{}% 32
