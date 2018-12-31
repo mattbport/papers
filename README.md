@@ -1,1 +1,3 @@
-# papers
+# Papers
+
+Repo for papers, conference notes, etc.
