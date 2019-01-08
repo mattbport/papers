@@ -1,29 +1,32 @@
-+-----------------------------+-----------------------+---------------------------+
-| Matt Bellingham             | Simon Holland         | Paul Mulholland           |
-|                             |                       |                           |
-| Department of Music         | Music Computing Lab   | Knowledge Media Institute |
-|                             |                       |                           |
-| University of Wolverhampton | The Open University   | The Open University       |
-|                             |                       |                           |
-| matt.bellingham\@wlv.ac.uk  | s.holland\@open.ac.uk | p.mulholland\@open.ac.uk  |
-+-----------------------------+-----------------------+---------------------------+
+---
+title: Choosers: The design and evaluation of a visual algorithmic music composition language for non-programmers
+author:
+- Matt Bellingham
+- Simon Holland
+- Paul Mulholland
+figPrefix:
+  - "Figure"
+  - "Figs."
+secPrefix:
+  - "Section"
+  - "Sections"
+---
 
-# Abstract {#abstract .Abstracttitle}
+
+# Abstract
 
 Algorithmic music composition involves specifying music in such a way that it is non-deterministic on playback, leading to music which has the potential to be different each time it is played. Current systems for algorithmic music composition typically require the user to have considerable programming skill and may require formal knowledge of music. However, much of the potential user population are music producers and musicians (some professional, but many amateur) with little or no programming experience and few formal musical skills. To investigate how this gap between tools and potential users might be better bridged we designed Choosers, a prototype algorithmic programming system centred around a new abstraction (of the same name) designed to allow non-programmers access to algorithmic music composition methods. Choosers provides a graphical notation that allows structural elements of key importance in algorithmic composition (such as sequencing, choice, multi-choice, weighting, looping and nesting) to be foregrounded in the notation in a way that is accessible to non-programmers. In order to test design assumptions a Wizard of Oz study was conducted in which seven pairs of undergraduate Music Technology students used Choosers to carry out a range of rudimentary algorithmic composition tasks. Feedback was gathered using the Programming Walkthrough method. All users were familiar with Digital Audio Workstations, and as a result they came with some relevant understanding, but also with some expectations that were not appropriate for algorithmic music work. Users were able to successfully make use of the mechanisms for choice, multi-choice, looping, and weighting after a brief training period. The 'stop' behaviour was not so easily understood and required additional input before users fully grasped it. Some users wanted an easier way to override algorithmic choices. These findings have been used to further refine the design of Choosers.
 
 # Introduction
 
-Algorithmic composition typically involves structural elements such as indeterminism, parallelism, choice, multi-choice, recursion, weighting, and looping (Jacob, 1996). There are powerful existing tools, such as Max (Puckette, 1991) and SuperCollider (McCartney, 2002) for manipulating these and other elements of music. However, while these systems give great compositional power to musicians who are also skilled programmers (Wilson et al., 2011), many musicians who are not also expert programmers find these tools inaccessible and difficult to understand and use (Bullock et al., 2011).
+Algorithmic composition typically involves structural elements such as indeterminism, parallelism, choice, multi-choice, recursion, weighting, and looping [@Jacob:1996aa]. There are powerful existing tools, such as Max (Puckette, 1991) and SuperCollider (McCartney, 2002) for manipulating these and other elements of music. However, while these systems give great compositional power to musicians who are also skilled programmers (Wilson et al., 2011), many musicians who are not also expert programmers find these tools inaccessible and difficult to understand and use (Bullock et al., 2011).
 
 This paper presents an evaluation of a prototype visual programming language (Bellingham et al., 2017) designed to allow structural elements of the kind involved in algorithmic music composition to be readily visualised and manipulated, while making little or no demand on programming ability. This system, called Choosers, centres around a novel non-standard programming abstraction (the Chooser) which controls indeterminism, parallelism, choice, multi-choice, recursion, weighting, and looping.
 
 In this paper we present a programming walkthrough evaluation carried out with seven pairs of undergraduate Music Technology students. The purpose of this evaluation is to:
 
 -   Test the ability of self-taught music producers without programming skills to use Choosers to carry out a range of rudimentary algorithmic composition tasks;
-
 -   Identify usability and user experience problems in the current design;
-
 -   Identify tensions and trade-offs in the interaction design of the system.
 
 In the evaluation, pairs of participants were introduced to each element of the graphical programming language via short tutorial videos. Participants were given a range of practical tasks to complete on paper or a whiteboard. The facilitator played a Wizard of Oz role, rapidly translating participants' graphical solutions into runnable code that was fed into a non-graphical prototype version of Choosers so that participants could hear the musical results of their attempts.
@@ -36,13 +39,11 @@ Various music programming languages are capable of algorithmic composition, alth
 
 The following section provides a brief overview of Choosers, designed to cover enough detail to allow readers to understand the evaluation. Full details of the system design can be found in Bellingham et al. (2017). The system has general musical expressivity, but for simplicity the present evaluation focuses on the manipulation of samples for algorithmic composition.
 
-**Samples** are shown in boxes, and can be auditioned by clicking on them. Samples can be assembled into **sequences** using arrows (see fig. 1). Samples in a sequence play in the order indicated by the direction of the arrows. Only a single arrow can enter or exit each element in a sequence. This deliberate limitation reflects the fact that parallelism and choice are dealt with elsewhere in the language. Boxes and sequences can be put inside other boxes, thereby packaging them into a single unit.
+**Samples** are shown in boxes, and can be auditioned by clicking on them. Samples can be assembled into **sequences** using arrows (see @fig:samples). Samples in a sequence play in the order indicated by the direction of the arrows. Only a single arrow can enter or exit each element in a sequence. This deliberate limitation reflects the fact that parallelism and choice are dealt with elsewhere in the language. Boxes and sequences can be put inside other boxes, thereby packaging them into a single unit.
 
-![](./media/image1.png){width="5.500757874015748in" height="1.4733333333333334in"}
+![Samples are shown in boxes, and a sequence is assembled via arrows (left); an annotated Soundable Chooser (right)](./media/image1.png){#fig:samples}
 
-Figure 1: Samples are shown in boxes, and a sequence is assembled via arrows (left); an annotated Soundable Chooser (right)
-
-Boxes referring to samples or sequences can be snapped together vertically to create what are known as **Choosers**. Fig. 1 shows a Chooser with two lanes, each containing a sample (drums and bass). The number 1 in the nose cone indicates that at run time, just one of the lanes will be selected at random (subject to restrictions described below). By manipulating the number in the nose cone, any number of lanes from 0 to 2 can be chosen randomly to play simultaneously. A Chooser can have any number *n* of lanes. By manipulating the number in the nose cone, any number of lanes from 0 to *n* can be chosen randomly at run time and played simultaneously. Each lane has a weight associated with it. Consequently, in fig. 1, the drums are twice as likely to be chosen as the bass. Additionally, a weight of 'A' ('always play') can be used to ensure that the lane is always selected for playback.
+Boxes referring to samples or sequences can be snapped together vertically to create what are known as **Choosers**. @fig:samples shows a Chooser with two lanes, each containing a sample (drums and bass). The number 1 in the nose cone indicates that at run time, just one of the lanes will be selected at random (subject to restrictions described below). By manipulating the number in the nose cone, any number of lanes from 0 to 2 can be chosen randomly to play simultaneously. A Chooser can have any number *n* of lanes. By manipulating the number in the nose cone, any number of lanes from 0 to *n* can be chosen randomly at run time and played simultaneously. Each lane has a weight associated with it. Consequently, in fig. 1, the drums are twice as likely to be chosen as the bass. Additionally, a weight of 'A' ('always play') can be used to ensure that the lane is always selected for playback.
 
 Any sample can be set to **loop** indefinitely when selected on a particular run, or to play just once by the choice indicated in the status column (shown in fig. 1): indefinite looping of a single sample is typically not desired, so we now introduce **Time Choosers** (see fig. 2, left).
 
